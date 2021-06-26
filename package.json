@@ -1,5 +1,6 @@
 {
   "name": "covid-live",
+  "homepage": "http://learn.sochcreative.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

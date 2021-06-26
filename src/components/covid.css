@@ -1,0 +1,49 @@
+.covid-main{
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h2{
+    text-align: center;
+    color: #E74574;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+}
+.covid-main ul{
+    list-style: none;
+    text-align: center;
+}
+.cardName{
+    color:#02BFC9;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.card-main .card:first-child{
+    background: #EF3B36;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cardName span{
+    font-weight: 500;
+    font-size: small;
+}
+p.cardContent{
+    font-weight: 600;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 0 10px 35px rgb(0 0 0 / 10%);
+    color: #6c757d;
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+}
+.cardMain{
+    width: 300px;
+}
